@@ -1,23 +1,10 @@
-/* #include <LiquidCrystal.h>
-int Contrast = 75;
-LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
-
-void setup()
-{
-    analogWrite(6, Contrast);
-    lcd.begin(16, 2);
-}
-void loop()
-{
-    lcd.setCursor(0, 0);
-    lcd.print("Only Innovative");
-
-} */
-
 // Software Clock: set to compile/upload time
 // with power cycle, reset, or new serial monitor goes to original compile time
 // AVR Macro Strings converted to tmElements_t using functions
 // getDate() and getTime() functions taken from ds1307 library
+
+// weather : https://create.arduino.cc/projecthub/user5511362020/get-current-weather-data-from-openweathermap-org-c19b08
+
 #include <TimeLib.h>
 #include <LiquidCrystal.h>
 
