@@ -2,7 +2,6 @@
 // with power cycle, reset, or new serial monitor goes to original compile time
 // AVR Macro Strings converted to tmElements_t using functions
 // getDate() and getTime() functions taken from ds1307 library
-
 // weather : https://create.arduino.cc/projecthub/user5511362020/get-current-weather-data-from-openweathermap-org-c19b08
 
 #include <TimeLib.h>
